@@ -53,8 +53,8 @@ fig = plt.figure(2,figsize=(10,6))
 ax = plt.subplot2grid((3,1), (0,0), rowspan=2)
 #ax.set(xlim=(-0.1, 0.6), ylim=(-0.1, 1.1))
 part0 = ax.plot(ion_tr[0,:,0,0],posy,'o',markersize=4,color='C0')[0]
-part1 = ax.plot(ion_tr[1,:,0,0],posy,'o',markersize=12,color='C1')[0]
-part2 = ax.plot(ion_tr[2,:,0,0],posy,'o',markersize=20,color='C2')[0]
+part1 = ax.plot(ion_tr[1,:,0,0],posy,'o',markersize=4,color='C1')[0]
+part2 = ax.plot(ion_tr[2,:,0,0],posy,'o',markersize=4,color='C2')[0]
 ax.plot([0,0],[0,1],'--',linewidth=2,color='k')
 ax.plot([dE,dE],[0,1],'--',linewidth=2,color='k')
 ax.plot([L,L],[0,1],'--',linewidth=2,color='k')
